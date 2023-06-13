@@ -259,7 +259,7 @@ chat_id="-1001957546724"
 echo $caption
 echo "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
 
-curl -s -F caption=$caption \
-    -F chat_id=$chat_id \
+curl -s -F chat_id=$chat_id \
     -F document=@"tmp/vacantes.txt" \
+    -F caption=$caption \
     https://api.telegram.org/bot${token}/sendDocument
