@@ -251,7 +251,7 @@ while IFS='; ' read -r website curl_command; do
 done < "./websites.txt"
 
 # Datos para envio a Telegram
-caption=""Empleos para hoy -- ${fecha2}""
+caption="""Empleos para hoy -- ${fecha2}"""
 token="6222012920:AAG6075letS8iTzfLVAX8p9pkdIEg6FZAmQ"
 # token=`printenv API_KEY_AMVARGASBOT`
 chat_id="-1001957546724"
