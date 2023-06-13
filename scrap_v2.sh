@@ -120,7 +120,7 @@ while IFS='; ' read -r website curl_command; do
     case $website in
     *"chinalco"*)
         echo $website
-        echo -e "\n---Chinalco---" >> "tmp/vacantes.txt"
+        echo "\n---Chinalco---" >> "tmp/vacantes.txt"
         get_data_1 $website 
         ;;
     *"panama"*)
@@ -256,4 +256,9 @@ token="6222012920:AAG6075letS8iTzfLVAX8p9pkdIEg6FZAmQ"
 # token=`printenv API_KEY_AMVARGASBOT`
 chat_id="-1001957546724"
 # Envio Telegram
-# curl -F document=@"tmp/vacantes.txt" "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
+echo "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
+
+curl -v -F caption=$caption \
+    -F chat_id=$chat_id \
+    -F document=@"tmp/vacantes.txt" \
+    'https://api.telegram.org/bot$token/sendDocument'
