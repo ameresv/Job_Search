@@ -63,12 +63,12 @@
 
 # path="/mnt/c/Users/ali99/Documents/UnderDevelopment/JS/"
 # rm -f -- "/mnt/c/Users/ali99/Downloads/Telegram Desktop/vacantes (2).txt"
-rm -f -- "./vacantes.txt"
+rm -f -- ./vacantes.txt
 fecha=$(date +'%d/%m/%Y @ %H:%M')
 fecha2=$(date +'%d/%m @ %H:%M')
 
-echo "Request @ $fecha" > "./request.txt"
-echo "EMPLEOS DISPONIBLES AL: $fecha" > "./vacantes.txt"
+echo "Request @ $fecha" > ./request.txt
+echo "EMPLEOS DISPONIBLES AL: $fecha" > ./vacantes.txt
 
 key="TU0SLJK06EC4FYDSW6NLKFILF0PX2XNVCSYDNSZC8JNWFN4RDKMFJFEHOS8X3127TVC6E011EFYGLFI1"
 
@@ -79,13 +79,13 @@ get_data_1 () {
     | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' \
     | awk '{ printf "%s ", $0 } END { printf "\n" }' \
     | grep -oP '(?<=vacancy"> )(.*?)(?=<\/h4>)' \
-    | sort | uniq >> "./vacantes.txt"
+    | sort | uniq >> ./vacantes.txt
 }
 
 get_data_2 () {
     curl -s $1 \
     | grep -oP '(?<=<h3><a class="job-link" href="/caw/es/job/)(.*?)(?=<\/a>)' \
-    | grep -oP '(?<=>).*' | sort | uniq >> "./vacantes.txt"
+    | grep -oP '(?<=>).*' | sort | uniq >> ./vacantes.txt
 }
 
 get_data_3 () {
@@ -93,25 +93,25 @@ get_data_3 () {
         url="${1}${page}"
         curl -s "$url" | grep -oP '(?<=<a href="/careers/opportunities/)(.*?)(?=<\/a>)' \
         | grep -oP '(?<=/">)(.*?)$' \
-        | sort | uniq >> "./vacantes.txt" 
+        | sort | uniq >> ./vacantes.txt
     done 
 }
 
 get_data_4 () {
     curl -s $1 \
     | grep -oP '(?<=<a class="jobTitle-link" href="/job/)(.*?)(?=<\/a>)' \
-    | grep -oP '(?<=/">)(.*?)$' | sort | uniq >> "./vacantes.txt" 
+    | grep -oP '(?<=/">)(.*?)$' | sort | uniq >> ./vacantes.txt
 }
 
 get_data_5 () {
     curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=$1" \
     | grep -oP '(?<=<h2 class="sc-gbuiJB dWiCmc">)(.*?)(?=<\/h2>)' \
-    | sort | uniq >> "./vacantes.txt" 
+    | sort | uniq >> ./vacantes.txt
 }
 
 get_data_6 () {
     curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=$1" \
-    | grep -oP '(?<=<h4 class="color-company color-company-on-white">)(.*?)(?=<\/h4>)' >> "./vacantes.txt"
+    | grep -oP '(?<=<h4 class="color-company color-company-on-white">)(.*?)(?=<\/h4>)' >> ./vacantes.txt
 }
 
 # Making the scrapping consider the inputs
@@ -120,127 +120,127 @@ while IFS='; ' read -r website curl_command; do
     case $website in
     *"chinalco"*)
         echo $website
-        echo -e "\n---Chinalco---" >> "./vacantes.txt"
+        echo -e "\n---Chinalco---" >> ./vacantes.txt
         get_data_1 $website 
         ;;
     *"panama"*)
         echo $website
-        echo -e "\n---Cobre Panama---" >> "./vacantes.txt"
+        echo -e "\n---Cobre Panama---" >> ./vacantes.txt
         get_data_1 $website 
         ;;
     *"antapaccay"*)
         echo $website
-        echo -e "\n---Antapaccay---" >> "./vacantes.txt"
+        echo -e "\n---Antapaccay---" >> ./vacantes.txt
         get_data_1 $website 
         ;;
     *"mmg"*)
         echo $website
-        echo -e "\n---Las Bambas---" >> "./vacantes.txt"
+        echo -e "\n---Las Bambas---" >> ./vacantes.txt
         get_data_2 $website 
         ;;
     *"crugroup"*)
         echo $website
-        echo -e "\n---CRU Group---" >> "./vacantes.txt"
+        echo -e "\n---CRU Group---" >> ./vacantes.txt
         get_data_3 $website 
         ;;
     *"bhp"*)
         echo $website
-        echo -e "\n---BHP Chile---" >> "./vacantes.txt"
+        echo -e "\n---BHP Chile---" >> ./vacantes.txt
         get_data_4 $website 
         ;;
     *"hudbay"*)
         echo $website
-        echo -e "\n---Hudbay---" >> "./vacantes.txt"
+        echo -e "\n---Hudbay---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"minsur"*)
         echo $website
-        echo -e "\n---Minsur---" >> "./vacantes.txt"
+        echo -e "\n---Minsur---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"volcan"*)
         echo $website
-        echo -e "\n---Volcan---" >> "./vacantes.txt"
+        echo -e "\n---Volcan---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"catalina"*)
         echo $website
-        echo -e "\n---Catalina Huanca---" >> "./vacantes.txt"
+        echo -e "\n---Catalina Huanca---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"ferreyros"*)
         echo $website
-        echo -e "\n---Ferreyros---" >> "./vacantes.txt"
+        echo -e "\n---Ferreyros---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"anglo-american"*)
         echo $website
-        echo -e "\n---Anglo American---" >> "./vacantes.txt"
+        echo -e "\n---Anglo American---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"sociedad-minera-cerro-verde"*)
         echo $website
-        echo -e "\n---Cerro Verde---" >> "./vacantes.txt"
+        echo -e "\n---Cerro Verde---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"minera-boroo-misquichilca"*)
         echo $website
-        echo -e "\n---Boroo---" >> "./vacantes.txt"
+        echo -e "\n---Boroo---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"shougang-hierro-peru"*)
         echo $website
-        echo -e "\n---Shougang---" >> "./vacantes.txt"
+        echo -e "\n---Shougang---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"consorcio-minero-horizonte"*)
         echo $website
-        echo -e "\n---CMH---" >> "./vacantes.txt"
+        echo -e "\n---CMH---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"minera-aurifera-retamas"*)
         echo $website
-        echo -e "\n---Marsa---" >> "./vacantes.txt"
+        echo -e "\n---Marsa---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"stracon"*)
         echo $website
-        echo -e "\n---Stracon---" >> "./vacantes.txt"
+        echo -e "\n---Stracon---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"cementos-pacasmayo"*)
         echo $website
-        echo -e "\n---Pacasmayo---" >> "./vacantes.txt"
+        echo -e "\n---Pacasmayo---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"epiroc-peru"*)
         echo $website
-        echo -e "\n---Epiroc---" >> "./vacantes.txt"
+        echo -e "\n---Epiroc---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"compania-minera-antamina"*)
         echo $website
-        echo -e "\n---Antamina Bumeran---" >> "./vacantes.txt"
+        echo -e "\n---Antamina Bumeran---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"alpayana"*)
         echo $website
-        echo -e "\n---Alpayana---" >> "./vacantes.txt"
+        echo -e "\n---Alpayana---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"nexa-resources"*)
         echo $website
-        echo -e "\n---Nexa---" >> "./vacantes.txt"
+        echo -e "\n---Nexa---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"martin"*)
         echo $website
-        echo -e "\n---San Martin---" >> "./vacantes.txt"
+        echo -e "\n---San Martin---" >> ./vacantes.txt
         get_data_5 $website 
         ;;
     *"antamina"*)
         echo $website
-        echo -e "\n---Antamina---" >> "./vacantes.txt"
+        echo -e "\n---Antamina---" >> ./vacantes.txt
         get_data_6 $website 
         ;;
     *)
@@ -256,4 +256,4 @@ token="6222012920:AAG6075letS8iTzfLVAX8p9pkdIEg6FZAmQ"
 # token=`printenv API_KEY_AMVARGASBOT`
 chat_id="-1001957546724"
 # Envio Telegram
-curl -F document=@"./vacantes.txt" "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
+curl -F document=@./vacantes.txt "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
