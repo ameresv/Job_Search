@@ -256,9 +256,6 @@ token="6222012920:AAG6075letS8iTzfLVAX8p9pkdIEg6FZAmQ"
 # token=`printenv API_KEY_AMVARGASBOT`
 chat_id="-1001957546724"
 # Envio Telegram
-echo $caption
-echo "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
-
 curl -s -F chat_id=$chat_id \
     -F document=@"tmp/vacantes.txt" \
     -F caption="Empleos para hoy -- ${fecha2}"\
