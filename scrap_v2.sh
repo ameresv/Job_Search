@@ -125,122 +125,122 @@ while IFS='; ' read -r website curl_command; do
         ;;
     *"panama"*)
         echo $website
-        echo -e "\n---Cobre Panama---" >> "tmp/vacantes.txt"
+        echo "\n---Cobre Panama---" >> "tmp/vacantes.txt"
         get_data_1 $website 
         ;;
     *"antapaccay"*)
         echo $website
-        echo -e "\n---Antapaccay---" >> "tmp/vacantes.txt"
+        echo "\n---Antapaccay---" >> "tmp/vacantes.txt"
         get_data_1 $website 
         ;;
     *"mmg"*)
         echo $website
-        echo -e "\n---Las Bambas---" >> "tmp/vacantes.txt"
+        echo "\n---Las Bambas---" >> "tmp/vacantes.txt"
         get_data_2 $website 
         ;;
     *"crugroup"*)
         echo $website
-        echo -e "\n---CRU Group---" >> "tmp/vacantes.txt"
+        echo "\n---CRU Group---" >> "tmp/vacantes.txt"
         get_data_3 $website 
         ;;
     *"bhp"*)
         echo $website
-        echo -e "\n---BHP Chile---" >> "tmp/vacantes.txt"
+        echo "\n---BHP Chile---" >> "tmp/vacantes.txt"
         get_data_4 $website 
         ;;
     *"hudbay"*)
         echo $website
-        echo -e "\n---Hudbay---" >> "tmp/vacantes.txt"
+        echo "\n---Hudbay---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"minsur"*)
         echo $website
-        echo -e "\n---Minsur---" >> "tmp/vacantes.txt"
+        echo "\n---Minsur---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"volcan"*)
         echo $website
-        echo -e "\n---Volcan---" >> "tmp/vacantes.txt"
+        echo "\n---Volcan---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"catalina"*)
         echo $website
-        echo -e "\n---Catalina Huanca---" >> "tmp/vacantes.txt"
+        echo "\n---Catalina Huanca---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"ferreyros"*)
         echo $website
-        echo -e "\n---Ferreyros---" >> "tmp/vacantes.txt"
+        echo "\n---Ferreyros---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"anglo-american"*)
         echo $website
-        echo -e "\n---Anglo American---" >> "tmp/vacantes.txt"
+        echo "\n---Anglo American---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"sociedad-minera-cerro-verde"*)
         echo $website
-        echo -e "\n---Cerro Verde---" >> "tmp/vacantes.txt"
+        echo "\n---Cerro Verde---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"minera-boroo-misquichilca"*)
         echo $website
-        echo -e "\n---Boroo---" >> "tmp/vacantes.txt"
+        echo "\n---Boroo---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"shougang-hierro-peru"*)
         echo $website
-        echo -e "\n---Shougang---" >> "tmp/vacantes.txt"
+        echo "\n---Shougang---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"consorcio-minero-horizonte"*)
         echo $website
-        echo -e "\n---CMH---" >> "tmp/vacantes.txt"
+        echo "\n---CMH---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"minera-aurifera-retamas"*)
         echo $website
-        echo -e "\n---Marsa---" >> "tmp/vacantes.txt"
+        echo "\n---Marsa---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"stracon"*)
         echo $website
-        echo -e "\n---Stracon---" >> "tmp/vacantes.txt"
+        echo "\n---Stracon---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"cementos-pacasmayo"*)
         echo $website
-        echo -e "\n---Pacasmayo---" >> "tmp/vacantes.txt"
+        echo "\n---Pacasmayo---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"epiroc-peru"*)
         echo $website
-        echo -e "\n---Epiroc---" >> "tmp/vacantes.txt"
+        echo "\n---Epiroc---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"compania-minera-antamina"*)
         echo $website
-        echo -e "\n---Antamina Bumeran---" >> "tmp/vacantes.txt"
+        echo "\n---Antamina Bumeran---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"alpayana"*)
         echo $website
-        echo -e "\n---Alpayana---" >> "tmp/vacantes.txt"
+        echo "\n---Alpayana---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"nexa-resources"*)
         echo $website
-        echo -e "\n---Nexa---" >> "tmp/vacantes.txt"
+        echo "\n---Nexa---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"martin"*)
         echo $website
-        echo -e "\n---San Martin---" >> "tmp/vacantes.txt"
+        echo "\n---San Martin---" >> "tmp/vacantes.txt"
         get_data_5 $website 
         ;;
     *"antamina"*)
         echo $website
-        echo -e "\n---Antamina---" >> "tmp/vacantes.txt"
+        echo "\n---Antamina---" >> "tmp/vacantes.txt"
         get_data_6 $website 
         ;;
     *)
@@ -258,6 +258,7 @@ chat_id="-1001957546724"
 # Envio Telegram
 echo "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
 
-curl -v -F chat_id=$chat_id \
+curl -s -F caption= $caption \
+    -F chat_id=$chat_id \
     -F document=@"tmp/vacantes.txt" \
     https://api.telegram.org/bot${token}/sendDocument
