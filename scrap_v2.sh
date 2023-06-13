@@ -63,12 +63,12 @@
 
 # path="/mnt/c/Users/ali99/Documents/UnderDevelopment/JS/"
 # rm -f -- "/mnt/c/Users/ali99/Downloads/Telegram Desktop/vacantes (2).txt"
-rm -f -- ./vacantes.txt
+rm -f vacantes.txt
 fecha=$(date +'%d/%m/%Y @ %H:%M')
 fecha2=$(date +'%d/%m @ %H:%M')
 
-echo "Request @ $fecha" > ./request.txt
-echo "EMPLEOS DISPONIBLES AL: $fecha" > ./vacantes.txt
+echo "Request @ $fecha" > request.txt
+echo "EMPLEOS DISPONIBLES AL: $fecha" > vacantes.txt
 
 key="TU0SLJK06EC4FYDSW6NLKFILF0PX2XNVCSYDNSZC8JNWFN4RDKMFJFEHOS8X3127TVC6E011EFYGLFI1"
 
@@ -256,4 +256,4 @@ token="6222012920:AAG6075letS8iTzfLVAX8p9pkdIEg6FZAmQ"
 # token=`printenv API_KEY_AMVARGASBOT`
 chat_id="-1001957546724"
 # Envio Telegram
-curl -F document=@./vacantes.txt "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
+curl -F document=@vacantes.txt "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&caption=${caption}"
