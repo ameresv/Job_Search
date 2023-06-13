@@ -261,5 +261,5 @@ echo "https://api.telegram.org/bot${token}/sendDocument?chat_id=${chat_id}&capti
 
 curl -s -F chat_id=$chat_id \
     -F document=@"tmp/vacantes.txt" \
-    -F caption=$caption \
+    -F caption="Empleos para hoy -- ${fecha2}"\
     https://api.telegram.org/bot${token}/sendDocument
