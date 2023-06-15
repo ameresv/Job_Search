@@ -65,12 +65,12 @@
 # rm -f -- "/mnt/c/Users/ali99/Downloads/Telegram Desktop/vacantes (2).txt"
 rm -f -- "tmp/vacantes.txt"
 fecha=$(date +'%d/%m/%Y @ %H:%M')
-fecha2=$(date +'%d/%m @ %H:%M')
+fecha2=$(date -d "-5 hours" +'%d/%m @ %H:%M')
 
 echo "Request @ $fecha" > "tmp/request.txt"
 echo "EMPLEOS DISPONIBLES AL: $fecha" > "tmp/vacantes.txt"
 
-key="TU0SLJK06EC4FYDSW6NLKFILF0PX2XNVCSYDNSZC8JNWFN4RDKMFJFEHOS8X3127TVC6E011EFYGLFI1"
+key="QPMGL8ZP1SHHEM900DRNVPIAF3M9XJX7GHO6UU5HAWZFFNLD26985GKDRT2F2NQ6AEEC6T2WMJG1XMJC"
 
 # Functions prepared for scrapping
 
@@ -105,7 +105,7 @@ get_data_4 () {
 
 get_data_5 () {
     curl -s "https://app.scrapingbee.com/aptmp/v1/?api_key=${key}&url=$1" \
-    | grep -oP '(?<=<h2 class="sc-gbuiJB dWiCmc">)(.*?)(?=<\/h2>)' \
+    | grep -oP '(?<=<h2 class="sc-vBKru gONUaj">)(.*?)(?=<\/h2>)' \
     | sort | uniq >> "tmp/vacantes.txt" 
 }
 
