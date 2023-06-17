@@ -1,8 +1,11 @@
-EMPLEOS DISPONIBLES AL: 12/06/2023 @ 10:16
+EMPLEOS DISPONIBLES AL: 16/06/2023 @ 22:42
 
 ---Chinalco---
+Analista de Flota Liviana - Transporte Interno / Externo 
 Comprador 2 - Operaciones 
 Operador de Equipo Pesado 
+PRACTICANTE DE ADMINISTRACION DE PERSONAL 
+PRACTICANTE DE TRANSPORTE Y FLOTA LIVIANA 
 SUPERINTENDENTE DE GEOLOGIA Y GEOTECNIA (E) 
 SUPERINTENDENTE DE OPERACIONES PLANTA 
 SUPERINTENDENTE DE SOPORTE TECNICO Y MEJORA PLANTA 
@@ -10,13 +13,15 @@ Técnico Eléctrico Instrumentista Planta 3
 Técnico Mecánico Planta 3 
 
 ---Antapaccay---
+Ingeniero Geotecnista 
 Ingeniero Hidrogeólogo de Desarrollo 
+Ingeniero de Flota Auxiliar 
 Ingeniero de Planeamiento Corto Plazo 
 Superintendente de Análisis y Mejora 
-Supervisor Civil (Pre Factibilidad) Minería 
 Supervisor Geometalurgista 
 Supervisor de Construcción - Mediano y Largo Plazo 
 Supervisor de Construcción Budget 
+Técnico Eléctrico de Molienda (20016) 
 
 ---Cobre Panama---
 Asistente de Tesorería 
@@ -41,85 +46,270 @@ Tecnico de Aire Acondicionado
 Transport Officer 
 
 ---Antamina---
+Practicante Legal Regulatorio
+Practicante de Planeamiento Financiero y Control de Costos
+Practicante de Estrategia de Relaves
+Agente de Cambio
+Practicante de Concentradora / Metalurgia Microscopía
+Practicante de Concentradora Metalurgia y Laboratorio
+Practicante de Concentradora
+Asistente/a de Bienestar Social
+Practicante de Planillas
+Supervisor/a Junior de Transporte y Campamento
 
 ---Las Bambas---
+Analista Estadístico de Planta
+Contralor Financiero
+Supervisor (a) de Monitoreo de Contexto y Riesgos (PR)
+Supervisor(a) Senior de Instrumentación
 
 ---CRU Group---
-Base Metals Mine Costs Principal Analyst
-Base Metals Mine Project Costs
-Base Metals Smelting and Refining Cost Analyst
-Principal Analyst - Base Metals
-Senior Consultant
 Battery Raw Materials Analyst
-Conference Producer
 Manganese Ferroalloy Costs Analyst
 Senior Analyst - Base Metals Costs
 Sustainability Analyst
 Battery Raw Materials Analyst
-Conference Producer
-Product Marketing Executive
 Consultant
-Copper Supply Analyst
-Ferroalloys Prices Lead 
+HR Business Partner
 Research Analyst
 Senior ESG Analyst
 Analyst – Steel Supply, Costs and Emissions
-Analyst – Wire &amp; Cable 
 Analyst –Steel Supply, Costs and Emissions
-HR Business Partner
+Data Strategy and Transformation Manager
+Market Data Product Manager
 Market Editor
+Analyst - Base Metal Assets
+Market Data Product Manager
+Research Analyst Summer Intern
+Senior Battery Demand Analyst
+Senior Consultant
+Senior Macroeconomic Cost Analyst
+VP Sales, South America &amp; Country Manager, Chile
 
 ---BHP Chile---
-Lead Procurement Value Chain
-Lead Project Controls &amp; Analysis
-Manager Geotechnical, Hidrogeology and Tailings
-Manager Indigenous Engagement
-Mantenedor(a) Eléctrico(a) y/o Mecánico(a) Equipos Mina. Minera Spence
-Mantenedor(a) Eléctrico(a) y/o Mecánico(a) Mina. Spence
+Area Manager
+Especialista Eliminacion de Defectos
+Lead Closure
+Manager Project Portfolio - Escondida
 Principal Execution
 Principal PC&amp;P
 Principal Project Planning &amp; Scheduling
 Principal Regional Inventory Partner
+Principal Studies
 SI Operational Readiness Leaching
-Specialist Candidate Marketing
-Specialist Control
 Specialist Execution
+Specialist GIS (Metals Explorations)
 Specialist Studies
+Superintendent Cost Estimating
 Superintendent Execution
-Supervisor Control
+Supervisor(a) Producción Planta Concentradora. Minera Spence
 
 ---Hudbay---
+Asistente de Almacenes
+Ingeniero(a) de Hidrogeología I - Temporal 6 meses
+Ingeniero(a) de Hidrogeología I - Temporal 6 meses CUSCO
+Operador de Mina II - Perforadora (temporal) CUSCO
+Practicante Profesional de Metalurgia
+Programador(a) de Mantenimiento Mina
+Supervisor de Relaciones Comunitarias Exploraciones
+Trainee Instrumentista
+Trainee de Seguridad y Salud Ocupacional - Cusco
+Técnico Electricista III - Planta Concentradora
 
 ---Minsur---
+ANALISTA DE ADMINISTRACION DE PERSONAL
+Ingeniero Senior de Oficina Técnica (Temporal)
+Practicante de Comunicacion Interna
+Practicante profesional de Talento
 
 ---Volcan---
+ASISTENTE SOCIAL
+AYUDANTE CARGADOR
+Analista de Laboratorio Químico
+INGENIERIO GEOMECÁNICO
+INGENIERO DE RELAVERAS
+INGENIERO DE SEGURIDAD
+INGENIERO JUNIOR DE ASUNTOS AMBIENTALES
+INGENIERO JUNIOR DE PLANEAMIENTO A LARGO PLAZO
+JEFE DE GEOMECÁNICA
+JEFE DE MANTENIMIENTO MECANICO MINA
+JEFE DE MANTENIMIENTO MECÁNICO PLANTA
+MAESTRO DE CARGUÍO MINA
+PRACTICANTE PROFESIONAL - INGENIERIA Y PLANEAMIENTO
+PRACTICANTE PROFESIONAL DE RESPONSABILIDAD SOCIAL
+PRACTICANTE PROFESIONAL ÁREA LEGAL
+Practicante Profesional de Cierre de Mina
+SUPERVISOR DE MANTENIMIENTO ELÉCTRICO MINA
+TECNICO ELECTRICISTA PLANTA II
+TECNICO MECÁNICO SOLDADOR
+TÉCNICO ELECTRÓNICO
 
 ---Catalina Huanca---
+ASISTENTE DE JEFE DE MANTENIMIENTO ELÉCTRICO
+Relacionista Comunitario
+TECNICO GEOMECÁNICO
 
 ---Ferreyros---
+Auxiliar Administrativo - Gran Minería - Moquegua
+Eléctrico de Camiones - Experiencia en Overhaul
+Eléctrico de Palas y/o Camiones - Experiencia en Overhaul
+Especialista de Aplicación y Mejora Continua
+Ingeniero Residente - Minería Subterránea
+Ingeniero Trainee – Servicios (Cajamarca)
+Mecánico de Palas - Experiencia en Overhaul
+Operario de Almacén - Op. Toromocho (Armado de Mangueras)
+Soldador (a) - MSH
+Supervisor de Seguridad - Lima
+Supervisor de Seguridad – Gran Minería – Op. Toromocho
+Supervisor de Seguridad – Sucursal Arequipa
+Trainee de Procesos y Mejora Continua - Arequipa/La Joya
+Técnico Electricista de Maquinaria Pesada - Minería Subterránea
+Técnico Eléctrico – Op. Toromocho
+Técnico Mecánico - Op. Antamina
+Técnico Mecánico de Palas - Op. Quellaveco
+Técnico de Ensamble y Mantenimiento
+Técnico(a) Mecánico de Flota Auxiliar - Op. Cuajone
 
 ---San Martin---
+Analista de compras Senior - Servicios - Minería y Construcción
+Asistente de Tesorería
+Auxiliar de Pases y Acreditaciones de campamentos mineros - MARCONA - ...
+Auxiliar de almacén - Chilca
+Enfermera de Vigilancia Medica de campamento Minero
+Enfermera(o) Ocupacional - Lima Sur
+MAESTRO LUBRICADOR - Ica - Marcona
+MECÁNICO DE PERFORADORAS (EPIROC: DML, DM45/SANDVIK: DR460, D75K) Para...
+Maestro Electricista - de camiones mineros CAT 777F / 785C / 785D / 79...
+Maestro Lubricador
+Maestro Mecánico CRC / Minería - Taller Chilca
+Maestro Mecánico de Gran Minería (Overhaul) - Ica
+Operador de Cisterna de Combustible - Mercedes Benz (ACTROS - AXOR) - ...
+Operador de Excavadora
+Operador de volquete - Marcona
+Supervisor de Mantenimiento (Over Haul) / Gran Minería - ICA
+Supervisor de Mantenimiento - de Palas Hidráulicas CAT 6040 - 6050 y P...
+Supervisor de Operaciones de campamentos mineros
+Supervisor de mantenimiento de Equipos (PALAS HIDRAULICAS CAT 6050 - P...
+Titular Mecánico de Gran Minería (Overhaul) - Ica
 
 ---Anglo American---
 
 ---Cerro Verde---
 
 ---Boroo---
+Jefe de Control de Gestión
+Supervisor ERP - SAP S/4 HANA
 
 ---Alpayana---
+Administrador de Redes
+Analista de Planeamiento Financiero
+Asistente de Servicios Generales - Unidad Minera
+Coordinador de Infraestructura TI
+Geólogo de exploraciones Junior
+Ingeniero de seguridad - Unidad Minera Venturosa
+Ingeniero(a) Microsísmico (Geomecánica)
+Practicante Pre de Gestión Humana - Proyectos
+Practicante de Proyectos y Transformación Digital
+Practicante profesional Control de Gestión - Unidad minera
+Programa Trainee - Oficinas Lima
 
 ---Shougang---
+ANALISTA DE RELACIONES INDUSTRIALES
+Abogado Penalista Senior
+Analista de Control de Inventarios
+Analista de Costos, Presupuestos y Control de Propiedad
+Analista de Proyectos en Disciplina Mecánica
+Asistente Jefe de Servicios de Laboratorio
+Asistente Supervisor Mantenimiento Mecánico Mina - Taller de Camiones
+Asistente Supervisor Mantenimiento de Fajas Transportadoras
+Asistente Supervisor Voladura - Monsanto (Control de Explosivos)
+Asistente Supervisor de Taller de Lubricación Mina
+Ayudante de Cocina
+Jefe Control de Inventarios
+Jefe de Almacenes
+Practicante Profesional - Control de Inventario
+Practicante Profesional de Planillas y Compensaciones
+Sub Jefe de Asesoría Jurídica
+Supervisor General de Planta HPGR
+Técnico Operador Mantenimiento III - Beneficio
+Técnico Químico - Metalúrgico
+Técnico de Mantenimiento de Motores Eléctricos
 
 ---CMH---
+Administrador de Contratos y Liquidaciones
+Geólogo de Sección - Minera Subterránea
+INGENIERO DE COSTOS - AREA GEOMECANICA
+Ingeniero de Mantenimiento Planta
+Jefe de Procesos de Sostenimiento Shotcrete
+OPERADOR DE PLANTA
+PRACTICANTE PROFESIONAL - PLANEAMIENTO
+Practicante Pre Profesional de Logística
+SUPERINTENDENTE DE ADMINISTRACION DE CONTRATOS
 
 ---Marsa---
+Asistente de Minería Artesanal
+Ingeniero de Proyectos (Disciplina Mecánica) - Unidad Minera Régimen 2...
+Jefe de Guardia Mina - Régimen 20x10
+Jefe de geomecánica
+Operador de campo (Agente de Seguridad) - Unidad Minera
+Operador de planta de acopio - Unidad minera
+Supervisor de Logística - Oficina Trujillo
+Supervisor de seguridad patrimonial - Unidad minera
 
 ---Stracon---
+ADMINISTRADOR DE SUBCONTRATOS
+Analista de Inventarios
+Asistente de Campo - Zona Centro
+Asistente de Planeamiento y Costos - Zona Sur
+Auxiliar de Almacén - Zona Sur
+Comprador
+Consultores SAP
+INGENIERO DE CALIDAD
+INGENIERO DE PLANEAMIENTO
+INGENIERO ELÉCTRICO O AFINES
+Ing. Especialista en Geología y Geotecnia
+Ingeniero SSOMA - Zona Centro
+Ingeniero de Costos - Zona Sur
+Ingeniero de Guardia
+Ingeniero de Planeamiento - Zona Sur
+Jefe de Equipos - México
+Jefe de Guardia
+Jefe de Procesos
+Planeador de Equipos
+Supervisor de Almacén - Zona Sur
 
 ---Pacasmayo---
+Auxiliar Técnico de Ventas - Volante
+DATA GOVERNANCE LEAD
+Gerente de control de gestión y finanzas
+Practicante de Control de Ventas
+Practicante de Producto
 
 ---Epiroc---
+Asistente de Ingeniero Residente / Mineria (Ingeniero de Mantenimiento...
+Asistente de Residente (Minería)
+Ingeniero de Seguridad (Mineria)
+Minería Subterránea-Ingeniero Supervisor de Mantenimiento
+Tecnico Electricista (Equipos Minería Subterránea)
+Técnico Mecánico (Minería Subterránea)
+Técnico/a Electricista (EQUIPOS - MINERÍA)
 
 ---Antamina Bumeran---
+AGENTE DE CAMBIO
+ASISTENTE/ A DE BIENESTAR SOCIAL
+PRACTICANTE DE CONCENTRADORA
+PRACTICANTE DE CONCENTRADORA - METALURGIA MICROSCOPÍA
+PRACTICANTE DE CONCENTRADORA - METALURGIA Y LABORATORIO
+PRACTICANTE DE ESTRATEGIA DE RELAVES
+Practicante Legal Regulatorio
+Practicante de Concentradora Metalurgia y Laboratorio
+Practicante de Gestión Social
+Practicante de Medio Ambiente
+Practicante de Planillas
 
 ---Nexa---
+Analista Contable Senior | Corporativo Lima
+GERENTE CORPORATIVO CONTRALORIA Y PLANEAMIENTO FINANCIERO
+Gerente de Servicios Técnicos | Pasco
+Ingeniero Planner | Cerro Lindo
+Supervisor/a de Planta | Cajamarquilla
