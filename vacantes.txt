@@ -1,10 +1,11 @@
-EMPLEOS DISPONIBLES AL: 16/06/2023 @ 22:42
+EMPLEOS DISPONIBLES AL: 19/06/2023 @ 14:37
 
 ---Chinalco---
 Analista de Flota Liviana - Transporte Interno / Externo 
 Comprador 2 - Operaciones 
 Operador de Equipo Pesado 
 PRACTICANTE DE ADMINISTRACION DE PERSONAL 
+PRACTICANTE DE PROCESOS Y MEJORA CONTINUA 
 PRACTICANTE DE TRANSPORTE Y FLOTA LIVIANA 
 SUPERINTENDENTE DE GEOLOGIA Y GEOTECNIA (E) 
 SUPERINTENDENTE DE OPERACIONES PLANTA 
@@ -15,9 +16,7 @@ Técnico Mecánico Planta 3
 ---Antapaccay---
 Ingeniero Geotecnista 
 Ingeniero Hidrogeólogo de Desarrollo 
-Ingeniero de Flota Auxiliar 
 Ingeniero de Planeamiento Corto Plazo 
-Superintendente de Análisis y Mejora 
 Supervisor Geometalurgista 
 Supervisor de Construcción - Mediano y Largo Plazo 
 Supervisor de Construcción Budget 
@@ -46,6 +45,7 @@ Tecnico de Aire Acondicionado
 Transport Officer 
 
 ---Antamina---
+Electricista IV
 Practicante Legal Regulatorio
 Practicante de Planeamiento Financiero y Control de Costos
 Practicante de Estrategia de Relaves
@@ -55,12 +55,9 @@ Practicante de Concentradora Metalurgia y Laboratorio
 Practicante de Concentradora
 Asistente/a de Bienestar Social
 Practicante de Planillas
-Supervisor/a Junior de Transporte y Campamento
 
 ---Las Bambas---
 Analista Estadístico de Planta
-Contralor Financiero
-Supervisor (a) de Monitoreo de Contexto y Riesgos (PR)
 Supervisor(a) Senior de Instrumentación
 
 ---CRU Group---
@@ -89,25 +86,15 @@ VP Sales, South America &amp; Country Manager, Chile
 ---BHP Chile---
 Area Manager
 Especialista Eliminacion de Defectos
-Lead Closure
 Manager Project Portfolio - Escondida
-Principal Execution
 Principal PC&amp;P
-Principal Project Planning &amp; Scheduling
-Principal Regional Inventory Partner
 Principal Studies
-SI Operational Readiness Leaching
-Specialist Execution
-Specialist GIS (Metals Explorations)
+Programa Graduado(a)s 2024
 Specialist Studies
-Superintendent Cost Estimating
-Superintendent Execution
 Supervisor(a) Producción Planta Concentradora. Minera Spence
 
 ---Hudbay---
 Asistente de Almacenes
-Ingeniero(a) de Hidrogeología I - Temporal 6 meses
-Ingeniero(a) de Hidrogeología I - Temporal 6 meses CUSCO
 Operador de Mina II - Perforadora (temporal) CUSCO
 Practicante Profesional de Metalurgia
 Programador(a) de Mantenimiento Mina
@@ -123,6 +110,7 @@ Practicante de Comunicacion Interna
 Practicante profesional de Talento
 
 ---Volcan---
+ANALISTA JUNIOR DE GESTIÓN DE PERSONAL CONTRATISTAS
 ASISTENTE SOCIAL
 AYUDANTE CARGADOR
 Analista de Laboratorio Químico
@@ -131,13 +119,12 @@ INGENIERO DE RELAVERAS
 INGENIERO DE SEGURIDAD
 INGENIERO JUNIOR DE ASUNTOS AMBIENTALES
 INGENIERO JUNIOR DE PLANEAMIENTO A LARGO PLAZO
+Ingeniero Senior de Confiabilidad
 JEFE DE GEOMECÁNICA
 JEFE DE MANTENIMIENTO MECANICO MINA
 JEFE DE MANTENIMIENTO MECÁNICO PLANTA
-MAESTRO DE CARGUÍO MINA
 PRACTICANTE PROFESIONAL - INGENIERIA Y PLANEAMIENTO
 PRACTICANTE PROFESIONAL DE RESPONSABILIDAD SOCIAL
-PRACTICANTE PROFESIONAL ÁREA LEGAL
 Practicante Profesional de Cierre de Mina
 SUPERVISOR DE MANTENIMIENTO ELÉCTRICO MINA
 TECNICO ELECTRICISTA PLANTA II
@@ -171,6 +158,7 @@ Técnico de Ensamble y Mantenimiento
 Técnico(a) Mecánico de Flota Auxiliar - Op. Cuajone
 
 ---San Martin---
+Analista De Tesorería - Lima
 Analista de compras Senior - Servicios - Minería y Construcción
 Asistente de Tesorería
 Auxiliar de Pases y Acreditaciones de campamentos mineros - MARCONA - ...
@@ -189,7 +177,6 @@ Operador de volquete - Marcona
 Supervisor de Mantenimiento (Over Haul) / Gran Minería - ICA
 Supervisor de Mantenimiento - de Palas Hidráulicas CAT 6040 - 6050 y P...
 Supervisor de Operaciones de campamentos mineros
-Supervisor de mantenimiento de Equipos (PALAS HIDRAULICAS CAT 6050 - P...
 Titular Mecánico de Gran Minería (Overhaul) - Ica
 
 ---Anglo American---
@@ -204,7 +191,6 @@ Supervisor ERP - SAP S/4 HANA
 Administrador de Redes
 Analista de Planeamiento Financiero
 Asistente de Servicios Generales - Unidad Minera
-Coordinador de Infraestructura TI
 Geólogo de exploraciones Junior
 Ingeniero de seguridad - Unidad Minera Venturosa
 Ingeniero(a) Microsísmico (Geomecánica)
@@ -296,7 +282,7 @@ Técnico/a Electricista (EQUIPOS - MINERÍA)
 
 ---Antamina Bumeran---
 AGENTE DE CAMBIO
-ASISTENTE/ A DE BIENESTAR SOCIAL
+ELECTRICISTA IV
 PRACTICANTE DE CONCENTRADORA
 PRACTICANTE DE CONCENTRADORA - METALURGIA MICROSCOPÍA
 PRACTICANTE DE CONCENTRADORA - METALURGIA Y LABORATORIO

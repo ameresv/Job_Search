@@ -104,13 +104,13 @@ get_data_4 () {
 }
 
 get_data_5 () {
-    curl -s "https://app.scrapingbee.com/aptmp/v1/?api_key=${key}&url=$1" \
+    curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=$1" \
     | grep -oP '(?<=<h2 class="sc-vBKru gONUaj">)(.*?)(?=<\/h2>)' \
     | sort | uniq >> "tmp/vacantes.txt" 
 }
 
 get_data_6 () {
-    curl -s "https://app.scrapingbee.com/aptmp/v1/?api_key=${key}&url=$1" \
+    curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=$1" \
     | grep -oP '(?<=<h4 class="color-company color-company-on-white">)(.*?)(?=<\/h4>)' >> "tmp/vacantes.txt"
 }
 
