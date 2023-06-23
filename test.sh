@@ -10,6 +10,6 @@
 # url="https://jobs.airavirtual.com/antamina"
 # curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=${url}" > otros.txt
 
-cat otros.txt \
- | grep -oP '(?<=<h2 class="sc-vBKru gONUaj">)(.*?)(?=<\/h2>)' \
- | sort | uniq
+# cat otros.txt \
+#  | grep -oP '(?<=<h2 class="sc-bQmweE kaxXsL">)(.*?)(?=<\/h2>)' \
+#  | sort | uniq

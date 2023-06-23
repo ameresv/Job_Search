@@ -105,7 +105,7 @@ get_data_4 () {
 
 get_data_5 () {
     curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=$1" \
-    | grep -oP '(?<=<h2 class="sc-vBKru gONUaj">)(.*?)(?=<\/h2>)' \
+    | grep -oP '(?<=<h2 class="sc-bQmweE kaxXsL">)(.*?)(?=<\/h2>)' \
     | sort | uniq >> "${path}vacantes.txt" 
 }
 
