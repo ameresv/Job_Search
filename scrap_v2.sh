@@ -70,7 +70,7 @@ fecha2=$(date -d "-5 hours" +'%d/%m @ %H:%M')
 echo "Request @ $fecha" > "tmp/request.txt"
 echo "EMPLEOS DISPONIBLES AL: $fecha" > "tmp/vacantes.txt"
 
-key="QPMGL8ZP1SHHEM900DRNVPIAF3M9XJX7GHO6UU5HAWZFFNLD26985GKDRT2F2NQ6AEEC6T2WMJG1XMJC"
+key="D5NBVDLUWATIJR92ZJE3JCV3JNY1ZV3E4BBJNCCOMF2BZ695A2RFV7WM1PFT13IBKORQ86FRIYNPQAMY"
 
 # Functions prepared for scrapping
 
