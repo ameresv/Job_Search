@@ -70,7 +70,7 @@ fecha2=$(date -d "-5 hours" +'%d/%m @ %H:%M')
 echo "Request @ $fecha" > "tmp/request.txt"
 echo "EMPLEOS DISPONIBLES AL: $fecha" > "tmp/vacantes.txt"
 
-key="D5NBVDLUWATIJR92ZJE3JCV3JNY1ZV3E4BBJNCCOMF2BZ695A2RFV7WM1PFT13IBKORQ86FRIYNPQAMY"
+key="2OP3N8QCC2L680WZ1GVJSWE84WB0CWP3WVT31OGUJE0FJDZYVFX6DE86CXA0XV0R3H4T1U7ZSG05OIUZ"
 
 # Functions prepared for scrapping
 
@@ -105,7 +105,7 @@ get_data_4 () {
 
 get_data_5 () {
     curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=$1" \
-    | grep -oP '(?<=<h2 class="sc-dfRKBO ipAXHP">)(.*?)(?=<\/h2>)' \
+    | grep -oP '(?<=<h2 class="sc-bCCsHx cmvKah">)(.*?)(?=<\/h2>)' \
     | sort | uniq >> "tmp/vacantes.txt" 
 }
 

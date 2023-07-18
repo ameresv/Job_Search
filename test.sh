@@ -1,7 +1,7 @@
 #!/bin/bash
 
  #rm ./otros.txt 
- #key="D5NBVDLUWATIJR92ZJE3JCV3JNY1ZV3E4BBJNCCOMF2BZ695A2RFV7WM1PFT13IBKORQ86FRIYNPQAMY"
+ #key="2OP3N8QCC2L680WZ1GVJSWE84WB0CWP3WVT31OGUJE0FJDZYVFX6DE86CXA0XV0R3H4T1U7ZSG05OIUZ"
  #url="https://www.bumeran.com.pe/perfiles/empresa_hudbay-peru_10097690.html"
  #curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=${url}" > otros.txt
 
@@ -11,5 +11,5 @@
 # curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=${url}" > otros.txt
 
 cat otros.txt \
- | grep -oP '(?<=<h2 class="sc-dfRKBO ipAXHP">)(.*?)(?=<\/h2>)' \
+ | grep -oP '(?<=<h2 class="sc-bCCsHx cmvKah">)(.*?)(?=<\/h2>)' \
  | sort | uniq
