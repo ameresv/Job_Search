@@ -11,5 +11,5 @@
 # curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=${url}" > otros.txt
 
 cat otros.txt \
- | grep -oP '(?<=<h2 class="sc-dfRKBO ipAXHP">)(.*?)(?=<\/h2>)' \
+ | grep -oP '(?<=<h3 class="sc-dfRKBO ipAXHP">)(.*?)(?=<\/h3>)' \
  | sort | uniq
