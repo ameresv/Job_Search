@@ -1,7 +1,7 @@
 #!/bin/bash
 
  #rm ./otros.txt 
- #key="2OP3N8QCC2L680WZ1GVJSWE84WB0CWP3WVT31OGUJE0FJDZYVFX6DE86CXA0XV0R3H4T1U7ZSG05OIUZ"
+ #key="P7GJTQJTI3W9B79TVAG6YRM9M172WGJ6FHKOPP8ZV629Y48NGIX8VHHOC3FSTVR701ZCDO54ED7L3EB5"
  #url="https://www.bumeran.com.pe/perfiles/empresa_hudbay-peru_10097690.html"
  #curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=${url}" > otros.txt
 
