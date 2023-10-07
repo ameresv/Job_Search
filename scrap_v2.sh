@@ -114,6 +114,13 @@ get_data_6 () {
     | grep -oP '(?<=<h4 class="color-company color-company-on-white">)(.*?)(?=<\/h4>)' >> "tmp/vacantes.txt"
 }
 
+get_data_7 () {
+    curl -s "https://app.scrapingbee.com/api/v1/?api_key=${key}&url=$1" \
+    | grep -oP '(?<="block align-middle py-2 px-1 md:py-2 md:px-3 xl:px-4"><div><span class=")(.*?)(?=<\/span>)' \
+    | grep -oP '(?<=\">).*' \
+    | sort | uniq >> "tmp/vacantes.txt" 
+}
+
 # Making the scrapping consider the inputs
 
 while IFS='; ' read -r website curl_command; do
@@ -147,6 +154,11 @@ while IFS='; ' read -r website curl_command; do
         echo $website
         echo "\n---BHP Chile---" >> "tmp/vacantes.txt"
         get_data_4 $website 
+        ;;
+    *"glencore"*)
+        echo $website
+        echo "\n---Glencore---" >> "tmp/vacantes.txt"
+        get_data_7 $website 
         ;;
     *"hudbay"*)
         echo $website
