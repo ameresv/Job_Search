@@ -155,11 +155,6 @@ while IFS='; ' read -r website curl_command; do
         echo "\n---BHP Chile---" >> "tmp/vacantes.txt"
         get_data_4 $website 
         ;;
-    *"glencore"*)
-        echo $website
-        echo "\n---Glencore---" >> "tmp/vacantes.txt"
-        get_data_7 $website 
-        ;;
     *"hudbay"*)
         echo $website
         echo "\n---Hudbay---" >> "tmp/vacantes.txt"
@@ -254,6 +249,11 @@ while IFS='; ' read -r website curl_command; do
         echo $website
         echo "\n---Antamina---" >> "tmp/vacantes.txt"
         get_data_6 $website 
+        ;;
+    *"glencore"*)
+        echo $website
+        echo "\n---Glencore---" >> "tmp/vacantes.txt"
+        get_data_7 $website 
         ;;
     *)
         echo $website
